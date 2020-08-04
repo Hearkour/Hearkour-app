@@ -151,7 +151,7 @@ body:before {
     z-index: -1;
     width: 100vw;
     height: 100vh;
-    opacity: 40%;
+    opacity: 50%;
 
     position: absolute;
 }
