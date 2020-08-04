@@ -1,10 +1,12 @@
 # Ignore these files
 
+# backups and testers
 backup.html
+fonts-NanumSquareRound-original-backup.css
 icons/!-mic-recording.svg
 
 # School assignment
 project-report.hwp.lnk
 
 # Ignore these temporarily
-fonts/
+fonts/temp/

@@ -52,3 +52,8 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'test';
+    src: url('fonts/a시나리오.ttf');
+}
