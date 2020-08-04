@@ -55,6 +55,6 @@
 
 @font-face {
     font-family: 'test';
-    src: url('../Hearkour/fonts/a시나리오.ttf');
+    src: url('../Hearkour-app/fonts/a시나리오.ttf');
     /* Ref: https://stackoverflow.com/questions/35718750/adding-custom-fonts-to-github-pages */
 }
