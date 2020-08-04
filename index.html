@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <style>
+        #outPitch { font-size: 3rem; }
+    </style>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Functionality-Implementation</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body>
+
+        <h1>Pitch Detection</h1>
+
+        <h3>PolyWads can detect the frequency of their input.</h3>
+        <h1><u>브라우저 콘솔창과 같이 보세영</u></h1>
+        <h3>마이크 사용 허용 두 번 해 줘야 되는 듯해요</h3>
+
+        <input type="button" id="logger" value="log it : 인식된 음의 변화를 배열로 출력">
+        <br/>
+        <input type="button" id="stop" value="stop : 인식 중지">
+        <input type="button" id="resume" value="resume : 콘솔 지움 & 인식 재개">
+
+        <br/><br/>
+        <h2>아래는 인식된 개별 음의 진동수와 음이름을 출력합니다.</h2>
+        <h2 id="outPitch"></h2>
+
+        <script src="WAD-MIN.js"></script>
+        <script src="wad-eg-saw.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+
+</html>

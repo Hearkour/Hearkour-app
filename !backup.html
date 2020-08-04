@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backup</title>
+
+    <style>
+        /* 나눔스퀘어라운드 font-face */
+        @font-face {
+            font-family: 'NanumSquareRoundB';
+            src: url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.eot');
+            src:/* local("NanumSquareRoundB"),*/
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.eot?#iefix') format('embedded-opentype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.woff') format('woff'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.ttf') format('truetype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.otf') format('opentype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.woff.svg#NanumSquareRoundB') format('svg');
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'NanumSquareRoundEB';
+            src: url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.eot');
+            src:/* local("NanumSquareRoundEB"),*/
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.eot?#iefix') format('embedded-opentype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.woff') format('woff'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.ttf') format('truetype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.otf') format('opentype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.woff.svg#NanumSquareRoundEB') format('svg');
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'NanumSquareRoundL';
+            src: url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.eot');
+            src:/* local("NanumSquareRoundL"),*/
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.eot?#iefix') format('embedded-opentype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.woff') format('woff'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.ttf') format('truetype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.otf') format('opentype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.woff.svg#NanumSquareRoundL') format('svg');
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'NanumSquareRoundR';
+            src: url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.eot');
+            src:/* local("NanumSquareRoundR"),*/
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.eot?#iefix') format('embedded-opentype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.woff') format('woff'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.ttf') format('truetype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.otf') format('opentype'),
+            url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.woff.svg#NanumSquareRoundR') format('svg');
+            font-style: normal;
+            font-display: swap;
+        }
+
+        /* 본문 */
+        
+        body {
+            font-family: 'NanumSquareRoundL';
+            color: #c6c6ff;
+        }
+        
+        body:before {
+            content: "";
+            display: block;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -10;
+
+            background: linear-gradient(#727eb3, #402e83, #1f2538) no-repeat center center;
+            
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+
+        .outer {
+            margin: auto;
+            position: absolute;
+            top: 0; bottom: 0; left: 0; right: 0;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 2.5vmin;
+            text-align: center;
+        }
+        .inner {
+            display: table-cell;
+            vertical-align: middle;
+            /*background-color:#272e46;*/
+        }
+
+        /* 버튼 : 마이크 */
+        .mic[type=button] {
+            cursor: pointer;
+            border: none; outline: none;
+            padding: 14vmin;
+
+            background: url('icons/mic-normal.svg');
+            background: url('https://raw.githubusercontent.com/NeboByeoli/music-search-by/master/icons/mic-normal.svg');
+            background-repeat: no-repeat;
+        }
+
+        .mic[type=button]:hover {
+            background: url('icons/mic-hover.svg');
+            background: url('https://raw.githubusercontent.com/NeboByeoli/music-search-by/master/icons/mic-hover.svg');
+            background-repeat: no-repeat;
+        }
+        .mic[type=button]:active {
+            background: url('icons/mic-clicked.svg');
+            background: url('https://raw.githubusercontent.com/NeboByeoli/music-search-by/master/icons/mic-clicked.svg');
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner"/>
+        <input type="button" class="mic" name="mic" id="mic"/>
+        <h1>노래를 불러 곡을 검색하세요.</h1>
+    </div>
+</body>
+</html>
