@@ -1,3 +1,6 @@
+// SoundVisualizer
+// Original source: https://github.com/ryan-pfeifer1111/SoundVisualizer
+
 var audio, freqArr, barHeight, source, colorSelect, grd1, grd2;
 var vaCanvas, vaContext; // va = visual audio
 
@@ -16,6 +19,7 @@ var lr = 0, lg = 0, lb = 255;
 var vol, currVol = .3;
 
 function initialize() {
+    
     vaCanvas = document.getElementById("visualizer"); //drawing the canvas
     vaContext = vaCanvas.getContext("2d");
 
@@ -87,6 +91,7 @@ function draw() {
     analyser.getByteFrequencyData(freqArr);
 
     for(var i = 0; i < INTERVAL; i++) {
+
         barHeight = ((freqArr[i] - 128) * 2) + 2;
         
         if(barHeight <= 0) barHeight = 0;
@@ -143,9 +148,4 @@ function draw() {
     lbR += lbRch / 16;
 
     window.requestAnimationFrame(draw);
-}
-
-function changeVolume(){
-    currVol = (vol.value/100);
-    audio.volume = currVol;
 }

@@ -3,7 +3,8 @@
 # backups and testers
 backup.html
 icons/!-mic-recording.svg
-fonts-orig-backup.css
+styles/fonts-orig-backup.css
+styles/window-sizes-info.css
 
 # School assignment
 project-report.hwp.lnk
