@@ -2,11 +2,11 @@
 
 # backups and testers
 backup.html
-fonts-NanumSquareRound-original-backup.css
 icons/!-mic-recording.svg
+fonts-orig-backup.css
 
 # School assignment
 project-report.hwp.lnk
 
 # Ignore these temporarily
-fonts/temp/
+# fonts/temp/

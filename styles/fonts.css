@@ -1,60 +1,44 @@
-/* 나눔스퀘어라운드 font-face */
+/* 나눔스퀘어라운드 font-face
+ * Source: https://hangeul.naver.com/2017/nanum
+ */
 
 @font-face {
     font-family: 'NanumSquareRoundB';
-    src: url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.eot');
+    src: url('../Hearkour-app/fonts/eot/NanumSquareRoundB.eot');
     src: local("NanumSquareRoundB"),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.otf') format('opentype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFB.woff.svg#NanumSquareRoundB') format('svg');
+    url('../Hearkour-app/fonts/otf/NanumSquareRoundB.otf') format('opentype'),
+    url('../Hearkour-app/fonts/ttf/NanumSquareRoundB.ttf') format('truetype'),
+    url('../Hearkour-app/fonts/eot/NanumSquareRoundB.eot?#iefix') format('embedded-opentype');
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'NanumSquareRoundEB';
-    src: url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.eot');
+    src: url('../Hearkour-app/fonts/eot/NanumSquareRoundEB.eot');
     src: local("NanumSquareRoundEB"),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.otf') format('opentype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFEB.woff.svg#NanumSquareRoundEB') format('svg');
+    url('../Hearkour-app/fonts/otf/NanumSquareRoundEB.otf') format('opentype'),
+    url('../Hearkour-app/fonts/ttf/NanumSquareRoundEB.ttf') format('truetype'),
+    url('../Hearkour-app/fonts/eot/NanumSquareRoundEB.eot?#iefix') format('embedded-opentype');
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'NanumSquareRoundL';
-    src: url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.eot');
+    src: url('../Hearkour-app/fonts/eot/NanumSquareRoundL.eot');
     src: local("NanumSquareRoundL"),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.otf') format('opentype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFL.woff.svg#NanumSquareRoundL') format('svg');
+    url('../Hearkour-app/fonts/otf/NanumSquareRoundL.otf') format('opentype'),
+    url('../Hearkour-app/fonts/ttf/NanumSquareRoundL.ttf') format('truetype'),
+    url('../Hearkour-app/fonts/eot/NanumSquareRoundL.eot?#iefix') format('embedded-opentype');
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'NanumSquareRoundR';
-    src: url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.eot');
+    src: url('../Hearkour-app/fonts/eot/NanumSquareRoundR.eot');
     src: local("NanumSquareRoundR"),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.otf') format('opentype'),
-    url('https://cdn.jsdelivr.net/npm/@kfonts/nanum-square-round-otf@0.1.0/NanumSquareRoundOTFR.woff.svg#NanumSquareRoundR') format('svg');
+    url('../Hearkour-app/fonts/otf/NanumSquareRoundR.otf') format('opentype'),
+    url('../Hearkour-app/fonts/ttf/NanumSquareRoundR.ttf') format('truetype'),
+    url('../Hearkour-app/fonts/eot/NanumSquareRoundR.eot?#iefix') format('embedded-opentype');
     font-style: normal;
     font-display: swap;
-}
-
-@font-face {
-    font-family: 'test';
-    src: url('../Hearkour-app/fonts/a시나리오.ttf');
-    /* Ref: https://stackoverflow.com/questions/35718750/adding-custom-fonts-to-github-pages */
 }
