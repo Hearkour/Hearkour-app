@@ -1,3 +1,6 @@
+// SoundVisualizer
+// Original source: https://github.com/ryan-pfeifer1111/SoundVisualizer
+
 var HTML_index = document.getElementById("HTML_index");
 var HTML_audiorecord = document.getElementById("HTML_audiorecord");
 
