@@ -13,7 +13,7 @@ var timeDelay = 800;
 if (HTML_index) {
     
     mic.addEventListener("click", function() {
-        mic.onclick = window.location.href = 'audiorecord.html';
+        window.location.href = 'audiorecord.html';
     });
 }
 
@@ -23,7 +23,7 @@ if (HTML_audiorecord) {
     loadDots.setAttribute("style", "color: #9966ff;");
     
     micActive.addEventListener("click", function() {
-        micActive.onclick = window.location.href = 'index.html';
+        window.location.href = 'index.html';
     });
     micActive.addEventListener("mouseover", function() {
         loadDots.setAttribute("style", "color: #6666ff;");
