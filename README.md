@@ -1,7 +1,11 @@
-# [Hearkour-app](https://hearkour.github.io/Hearkour-app/)
+# [drawmusic](https://NeboByeoli.github.io/drawmusic/)
 
+(Work in progress?)
+
+Content will most likely be altered & tinkered
+
+<!--
 Hearkour-app searches music using voice recognition<br>
-(Work in progress)
 
 <details>
 <summary>Expand to view definition of <strong>hearken</strong></summary>
@@ -19,3 +23,4 @@ Hearkour-app searches music using voice recognition<br>
 > &ndash; [Etymonline](https://www.etymonline.com/word/hearken#etymonline_v_6249)
 
 </details>
+-->
