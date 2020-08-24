@@ -4,6 +4,8 @@
 
 Content will most likely be altered & tinkered
 
+> probably should give it a new name now
+
 <!--
 Hearkour-app searches music using voice recognition<br>
 
